@@ -56,14 +56,14 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_KEY0), MP_ROM_PTR(&pin_GPIO18) },
     { MP_ROM_QSTR(MP_QSTR_KEY1), MP_ROM_PTR(&pin_GPIO14) },
     { MP_ROM_QSTR(MP_QSTR_KEY2), MP_ROM_PTR(&pin_GPIO13) },
-    { MP_ROM_QSTR(MP_QSTR_KEY3), MP_ROM_PTR(&pin_GPIO10) },
+    { MP_ROM_QSTR(MP_QSTR_KEY3), MP_ROM_PTR(&pin_GPIO9) },
     { MP_ROM_QSTR(MP_QSTR_KEY4), MP_ROM_PTR(&pin_GPIO17) },
     { MP_ROM_QSTR(MP_QSTR_KEY5), MP_ROM_PTR(&pin_GPIO16) },
     { MP_ROM_QSTR(MP_QSTR_KEY6), MP_ROM_PTR(&pin_GPIO12) },
     { MP_ROM_QSTR(MP_QSTR_KEY7), MP_ROM_PTR(&pin_GPIO11) },
     // upper two (meta) keys
     { MP_ROM_QSTR(MP_QSTR_KEY8), MP_ROM_PTR(&pin_GPIO19) },
-    { MP_ROM_QSTR(MP_QSTR_KEY9), MP_ROM_PTR(&pin_GPIO9) },
+    { MP_ROM_QSTR(MP_QSTR_KEY9), MP_ROM_PTR(&pin_GPIO10) },
     
     { MP_ROM_QSTR(MP_QSTR_OLEDI2C), MP_ROM_PTR(&board_i2c_obj) },
 

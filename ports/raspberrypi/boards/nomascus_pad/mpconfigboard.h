@@ -4,5 +4,5 @@
 #define CIRCUITPY_REPL_LOGO 0
 //#define MICROPY_EMIT_THUMB (1)
 
-#define DEFAULT_I2C_BUS_SCL (&pin_GPIO5)
-#define DEFAULT_I2C_BUS_SDA (&pin_GPIO4)
+// #define DEFAULT_I2C_BUS_SCL (&pin_GPIO5)
+// #define DEFAULT_I2C_BUS_SDA (&pin_GPIO4)
